@@ -1,14 +1,28 @@
 
+# Python
 .venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
+# Dataset
 data/raw/
 data/processed/
-checkpoints/
-outputs/logs/
+data/splits/
 
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Training outputs
+outputs/logs/
+outputs/figures/
+outputs/reports/
+runs/
+
+# Environment and IDE
 .env
-.DS_Store
 .vscode/
+.DS_Store

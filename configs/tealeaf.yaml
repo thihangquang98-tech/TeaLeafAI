@@ -1,0 +1,26 @@
+
+# ============================================================
+# TEALEAF AI - DATASET CONFIGURATION
+# Task: Tea Leaf Object Detection
+# Model: YOLOv8
+# ============================================================
+
+# Dataset root directory
+path: D:/TeaLeafAI/data/raw/La_che_Thai_Nguyen.v2i.yolov8
+
+# Dataset splits
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 6
+
+# Class names
+names:
+  0: algal_spot
+  1: brown_blight
+  2: gray_blight
+  3: healthy
+  4: helopeltis
+  5: red-spot
